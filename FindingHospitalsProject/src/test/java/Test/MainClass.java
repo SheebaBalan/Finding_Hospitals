@@ -34,7 +34,7 @@ public class MainClass {
 		driver.manage().window().maximize();
 	}
 
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void hospitalList() throws Exception {
 		//Extent report
 		ExtentReport.createTestcase("Getting Hospital List which is in Bangalore and that is Open 24/7, has Parking facility with rating more than 3.5");
@@ -54,7 +54,7 @@ public class MainClass {
 		HospitalList.backToHomePage(driver);
 	}
 
-	//@Test(priority=2)
+	@Test(priority=2)
 	public void topCitiesList() throws Exception {
 		//Extent report
 		ExtentReport.createTestcase("Getting all the top cities name in Diagnostics page");
