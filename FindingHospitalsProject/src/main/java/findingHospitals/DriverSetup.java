@@ -14,7 +14,7 @@ public class DriverSetup {
 
 	public static WebDriver getWebDriver() throws Exception {
 
-		String browser=InputOutputExcel.readExcel(0,2);
+		String browser=InputOutputExcel.readExcel(0,1);
 		if(browser.equalsIgnoreCase("Chrome")) {
 			//If it is 1,It open the chrome browser
 			System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
