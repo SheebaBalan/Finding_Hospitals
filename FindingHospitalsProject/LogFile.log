@@ -1,0 +1,7 @@
+2022-01-04 11:04:45 [main] INFO  findingHospitals.DriverSetup  - Launching the browser and opening the practo.com
+2022-01-04 11:05:00 [main] INFO  findingHospitals.CorporateWellness  - Filling Valid and Invalid details,schedule & capture the warning message from the alert  in the Corporate Wellness page
+2022-01-04 11:05:00 [main] INFO  findingHospitals.CorporateWellness  - Clicking the provider dropdown
+2022-01-04 11:05:02 [main] INFO  findingHospitals.CorporateWellness  - Clicking Corporate wellness from the provider dropdown
+2022-01-04 11:05:04 [main] INFO  findingHospitals.CorporateWellness  - Filling valid details in the form
+2022-01-04 11:05:36 [main] INFO  findingHospitals.CorporateWellness  - Filling invalid email in the form
+2022-01-04 11:06:10 [main] INFO  findingHospitals.CorporateWellness  - Filling invalid phone number in the form
